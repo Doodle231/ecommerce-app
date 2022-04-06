@@ -3,9 +3,9 @@ import { AppBar, Toolbar, IconButton, Badge, Menuitem, Menu, Typography } from '
 import { ShoppingCart } from '@material-ui/icons'
 
 import logo from "../../assets/commerce.png"
-import useStyles from "./styles"
+import useStyles from "./styles."
 
-const navbar = () => {
+const Navbar = () => {
     const classes = useStyles()
   return (
     <>
@@ -34,4 +34,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
